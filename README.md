@@ -15,6 +15,8 @@ Or, if you #help filter the results, there are some commands missing description
 
 - Each command is "scoped", meaning based on your current situation, you can use it to help guide you on the proper command for what you're looking for, or perhaps learn what commands are available you may not be aware of.
 - Once you execute a command, it will echo out the **real** command. You can choose to memorize the proper command in the future, or continue using the #zx variant one, whichever is more comfortable for you.
+- Want to mess with the NPC you're currently targetting, and see what you can do it with? #zx npc
+- Need to modify a player, or curious if you can hurt them? #zx pc, will dump all pc targetted commands.
 
 ## How do I use it?
 
