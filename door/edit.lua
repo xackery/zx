@@ -5,7 +5,7 @@ local function zx_gm_door_edit(e)
         command_args = " " .. table.concat(e.args, " ", 4)
     end
     local command = string.format("#door edit%s", command_args)
-    e.self:Message(MT.White, "running command: " .. command)
+    e.self:Message(MT.White, "Running command: " .. command)
     e.self:SendGMCommand(command)
 end
 

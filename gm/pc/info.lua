@@ -5,7 +5,7 @@ local function zx_gm_pc_info(e)
         command_args = " " .. table.concat(e.args, " ", 4)
     end
     local command = string.format("#show client_version_summary%s", command_args)
-    e.self:Message(MT.White, "running command: " .. command)
+    e.self:Message(MT.White, "Running command: " .. command)
     e.self:SendGMCommand(command)
 end
 

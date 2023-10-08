@@ -5,7 +5,7 @@ local function zx_pc_group(e)
         command_args = " " .. table.concat(e.args, " ", 3)
     end
     local command = string.format("#show group_info%s", command_args)
-    e.self:Message(MT.White, "running command: " .. command)
+    e.self:Message(MT.White, "Running command: " .. command)
     e.self:SendGMCommand(command)
 end
 
